@@ -10,6 +10,7 @@ These themes can be installed and used by cloning the repository into a local di
     git clone --recursive https://github.com/thenaterhood/lookin-pretty-fluxbox ~/.fluxbox/styles
     
 OR:
+
     git clone --recursive https://github.com/thenaterhood/lookin-pretty-fluxbox /usr/share/fluxbox/styles
     
 The first command will make the themes available only to you, and the second will make them available system-wide.
@@ -17,7 +18,9 @@ The first command will make the themes available only to you, and the second wil
 Once installed, the themes will appear (if you used the first method) in the Fluxbox menu under "User Styles", and if you used the second method, under "System Styles."
 
 In order to update the themes to the latest version available on github, go to the directory the styles are installed in, and run:
+
     git fetch
+    
     git pull
     
 
